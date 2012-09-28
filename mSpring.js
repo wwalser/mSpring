@@ -1,3 +1,4 @@
+!function(context){
 /*!
  * mSpring - Simple spring physics for Javascript
  * @name mSpring
@@ -26,6 +27,7 @@ function mSpring(options) {
 	//assigns the funtion that is called when the spring goes to a rest state.
 	spring.onSpringRest = options.onSpringRest;
 }
+context['mSpring'] = mSpring;
 
 mSpring.prototype.init = function () {
 	var spring = this;
@@ -143,3 +145,4 @@ mSpring.prototype.setOnSpringRest = function (onSpringRest) {
 	var spring = this;
 	spring.onSpringChange = onSpringRest;
 }
+}(this);

@@ -1,0 +1,28 @@
+{
+    "name": "mSpring",
+    "version": "1.0",
+    "title": "mSpring",
+    "author": {
+        "name": "Matthaeus Krenn",
+        "url": "http://matthaeuskrenn.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        }
+    ],
+    "description": "Simple spring physics for Javascript",
+    "keywords": [
+        "spring",
+        "physics"
+    ],
+    "homepage": "https://github.com/wwalser/mSpring",
+    "maintainers": [
+        {
+            "name": "Wesley Walser",
+            "url": "https://github.com/wwalser"
+        }
+    ],
+	"main": "./mSpring.js"
+}
